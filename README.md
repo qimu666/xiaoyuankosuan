@@ -2,15 +2,35 @@
 
 ## 原理：修改响应内容，使用连点器持续运行
 
+## 效果：
+
+- 视频
+
+<video width="320" height="240" controls>
+    <source src="video/xg.mp4" type="video/mp4">
+</video>
+
+- 速度：
+
+  
+
+  <img src="img/xg.jpg" alt="1728575419791.jpg" style="zoom: 33%;" />
+
 ## 环境： 安卓为例
+
 ### 1. root手机
+
 ### 2. 安装Magisk+Lsposed模块
    ![img.png](img/img.png)
 ### 3. 安装算法助手Pro
    Lsposed中算法助手勾选小猿口算
+
    ![img_1.png](img/img_1.png)
-   算法助手小猿口算开启如下设置
+
+ 算法助手小猿口算开启如下设置
+
    ![img_3.png](img/img_3.png)
+
 ### 4. 下载[Reqable]("https://reqable.com/zh-CN/")抓包工具，pc版本
 ### 5. 安装证书,以Magisk模块方式
    ![img.png](img/img_2.png)
