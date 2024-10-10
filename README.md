@@ -6,9 +6,7 @@
 
 - 视频
 
-<video width="320" height="240" controls>
-    <source src="video/xg.mp4" type="video/mp4">
-</video>
+ https://github.com/user-attachments/assets/dc6f09ee-cc40-41d8-a15b-08e99544a3c5
 
 - 速度：
 
