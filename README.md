@@ -2,6 +2,37 @@
 
 ## 原理：修改响应内容，使用连点器持续运行
 
+## 新版加密分析（未完成）
+app中pk响应二进制第一段与抓包脚本中匹配一致
+
+- app端加密响应
+
+![img_1.png](fx/img_1.png)
+
+- 抓包脚本加密响应
+
+![img_2.png](fx/img_2.png)
+
+- 对比
+
+```
+y7KptyngpGugGoc+lK6O8IIJOXeQMNxSyvDKCh8vrXeYGxDQ2In+LPSg8L73krWxWk1vYZ7kwMFDyiK1L4aoE+E9QYGw5UlZXogqQ67ovhR2zAGeaJEfUtAGm/GNYZOqMsqgsJ6NfNJt7w+yLyJC7tqaGkrVyJKf5UJtpRC15dr/H/Mmo/HOUc83LnPxN8IVxpL59NKXDen7y8uA/9nCOX6fhizcajpVJiB6szvT9Z9zGoq1zjcjvlLBHzCvriNfdmPaamLJp4VcFnc7BR57mZ9u11lc0FPpobYBstNBqxg+ROzwIJdfmnoR6e0/w9PRHNZvroM73vEJwIYE3gdgsXSb8imIGoR84nW4RElGGdGde+YiyurEW6BhRI94zF9UBpotwNyfy28z40Ii+TsM7VHcqQVaINR2Hv89BwKG76BvH8ssS81sQNp0XzNzx2z728HCBifHc8Worc2jB724LqXR8KpLtm/aUnQnZyYkkah2pwV6pE2y//ypuLdECtBtt6Zg/FPEjBud9pCTVtiK9FttPdKeUZq/2oPMZ70uPqJc3U8DDubQenkeK48VH6pI7Zv/UkBaRLgYAKMFwEtneOWkLgDaiNNdmaPuRXVq+YnjiWDOfIZM0Xta3PYSGxvV0637nYULmeSuxfc0LlhadwKUiywdZRpTXUZ7q5S8ianGLJ5QvaKVy98G2wh0BDSKMVcwjPt9fAyTSwm+MrURlCsfgJNL2MfWRoQcO91lR76A8iZjVRpdSvwOjniYptffE1higMGASCV392WVQVfuiG6DRQ96wxIuB+4FPw87xizGpWC3UwMZEBrvhDvSiMhcnVrfc44Ngjn07xWkflzliC5j2aladZl2d2WjSFZjjZtH3QnEmg==
+```
+```
+y7KptyngpGugGoc+lK6O8IIJOXeQMNxSyvDKCh8vrXeYGxDQ2In+LPSg8L73krWxWk1vYZ7kwMFDyiK1L4aoE+E9QYGw5UlZXogqQ67ovhR2zAGeaJEfUtAGm/GNYZOqMsqgsJ6NfNJt7w+yLyJC7tqaGkrVyJKf5UJtpRC15dr/H/Mmo/HOUc83LnPxN8IVxpL59NKXDen7y8uA/9nCOX6fhizcajpVJiB6szvT9Z9zGoq1zjcjvlLBHzCvriNfdmPaamLJp4VcFnc7BR57mZ9u11lc0FPpobYBstNBqxg+ROzwIJdfmnoR6e0/w9PRHNZvroM73vEJwIYE3gdgsXSb8imIGoR84nW4RElGGdGde+YiyurEW6BhRI94zF9UBpotwNyfy28z40Ii+TsM7VHcqQVaINR2Hv89BwKG76BvH8ssS81sQNp0XzNzx2z728HCBifHc8Worc2jB724LqXR8KpLtm/aUnQnZyYkkah2pwV6pE2y//ypuLdECtBtt6Zg/FPEjBud9pCTVtiK9FttPdKeUZq/2oPMZ70uPqJc3U8DDubQenkeK48VH6pI7Zv/UkBaRLgYAKMFwEtneOWkLgDaiNNdmaPuRXVq+YnjiWDOfIZM0Xta3PYSGxvV0637nYULmeSuxfc0LlhadwKUiywdZRpTXUZ7q5S8ianGLJ5QvaKVy98G2wh0BDSKMVcwjPt9fAyTSwm+MrURlCsfgJNL2MfWRoQcO91lR76A8iZjVRpdSvwOjniYptffE1higMGASCV392WVQVfuiG6DRQ96wxIuB+4FPw87xizGpWC3UwMZEBrvhDvSiMhcnVrfc44Ngjn07xWkflzliC5j2aladZl2d2WjSFZjjZtH3QnEmg==
+```
+
+app端二次加密
+![img_3.png](fx/img_3.png)
+
+在线解密数据
+![img_4.png](fx/img_4.png)
+
+**最后二次加密较为复杂且被加密**
+![img_5.png](fx/img_5.png)
+![img_6.png](fx/img_6.png)
+![img_7.png](fx/img_7.png)
+
 ## 效果：
 
 - 视频
